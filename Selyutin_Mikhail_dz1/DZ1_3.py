@@ -4,6 +4,5 @@
 
 # n = int(input("Введите число: "))
 n = 3
-summa = (n + int(str(n) + str(n)) + int(str(n) + str(n) + str(n)))
 
-print(summa)
+print(f'{n + int(str(n) + str(n)) + int(str(n) + str(n) + str(n))}')
