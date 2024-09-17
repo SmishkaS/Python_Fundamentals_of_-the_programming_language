@@ -5,7 +5,7 @@
 # sec = int(input("Укажиет колличество секунд: "))
 sec = 50000
 hours = sec // 3600
-ostatok = sec % 3600
-minn = ostatok // 60
-sec = ostatok % 60
+residue = sec % 3600
+minn = residue // 60
+sec = residue % 60
 print(f'{hours}:{minn}:{sec}')
